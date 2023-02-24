@@ -1,0 +1,78 @@
+.container{
+    width:80%;
+    height:auto;
+    margin:auto;
+    text-align: center;
+}
+.container .cont1{
+    width:100%;
+    height:120px;
+    
+    text-align: center;
+   margin: auto;
+}
+
+.img{
+    width:25%;
+    height:auto;
+    text-align: center;
+    margin: auto;
+    margin-top: 30px;
+}
+img{
+    width:25%;
+}
+*{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+form{
+    width:fit-content;
+    display: grid;
+   
+    grid-template-columns: 200px;
+    grid-template-rows: 30px 30px 30px 30px 30px 30px;
+    row-gap: 20px;
+    margin: auto;
+
+}
+.data{
+    width:80%;
+    height:auto;
+    margin: auto;
+
+}
+.verification {
+    margin-top: 20px;
+    display: none;
+  }
+
+.otp-input-fields {
+    margin: auto;
+    /* background-color: red; */
+    box-shadow: 0px 0 8px 0px #02024066;
+    max-width: 420px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 30px;
+  }
+  
+  .otp_num {
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    outline: none;
+    border-radius: 4px;
+    border: 1px solid #2f8f1f;
+    font-size: 14px;
+  }
+  .otp_num::-webkit-inner-spin-button,
+.otp_num::-webkit-outer-spin-button {
+  appearance: none;
+}
+
+.success,
+.error {
+  display: none;
+  text-align: center;
+}

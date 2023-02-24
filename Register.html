@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WE-CONNECT</title>
+    <link rel="stylesheet" href="register.css">
+</head>
+<body>
+    <div class="container">
+        <div class="cont1">
+            <div class="img">
+            <img src="./images/WE CONNECT.png" alt="">
+
+            </div>
+            <h3>WE-CONNECT</h3>
+        </div>
+          
+        
+        
+           
+            <div class="data">
+                <h1 style="text-align: center;">Please Fill your details</h1>
+                <form action="">
+                    <input type="text" placeholder="name" class="name">
+                    <input type="text" placeholder="Email" class="email">
+                    <input type="number" placeholder="mobile" class="mobile">
+                    <input type="password" placeholder="password" id="password">
+                    <input type="password" placeholder="confirmpassword" id="confirm_password"   class="myInput" onkeyup='check()'>
+                    <span id='message'></span>
+                    <div><input type="checkbox" onclick="myFunction()">Show Password</div>
+        
+                    <button class="submit-button" type="submit" >Create Account</button>
+                </form>
+                  
+                </div>
+            </div>
+       
+    
+    </div>
+    <div class="success text-success">
+        OTP verified Success fully
+    </div>
+
+    <div class="verification">
+        <div class="title center">
+            <p>An OTP has been sent to <span class="emailpartial">***orlddoubts@gmail.com</span></p>
+        </div>
+        <div class="otp-input-fields">
+            <input type="number" class="otp_num otp_num_1" maxlength="1">
+            <input type="number" class="otp_num otp_num_2" maxlength="1">
+            <input type="number" class="otp_num otp_num_3" maxlength="1">
+            <input type="number" class="otp_num otp_num_4" maxlength="1">
+           
+        </div>
+        <button class="verify-button" onclick="verifyotp()">verify</button>
+    </div>
+    <div class="error text-danger">
+        Invalid otp
+    </div>
+<script src="Register.js"></script>
+    
+</body>
+</html>
