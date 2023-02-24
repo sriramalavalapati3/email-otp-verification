@@ -1,5 +1,6 @@
 # email otp verification and storing data in database
-steps to use
+steps to use=>
+
 download the modules which were in json file dependencies
 
 Run the server using command= "npm run server"
